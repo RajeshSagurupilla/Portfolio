@@ -1,0 +1,104 @@
+section{
+    background-color: white;
+    max-width: 500px;
+    
+}
+
+h1{
+    font-family: "Poppins";
+    
+}
+
+p{
+    font-family: "Poppins";
+}
+
+header{
+    background: linear-gradient(to right, rgb(235, 4, 162),rgb(124, 20, 215));
+    padding: 20px;
+    color: aliceblue;
+    text-shadow:0 5px 10px black;
+    position: relative;
+}
+
+
+img{
+    border-radius: 200px;
+    box-shadow: 0 5px 10px rgb(252, 1, 1);
+    padding: 20px;
+}
+
+.icons{
+    width: 40px;
+    height: 40px;
+    
+}
+
+.skill-set{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.skill-set li{
+    padding: 10px;
+    box-shadow: 0 3px 5px rgb(58, 50, 50);
+    border-radius: 5px;
+    background: rgb(252, 237, 209);
+}
+
+a{
+    color:rgb(144, 144, 222);
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea{
+    width:calc(100% - 20px);
+    padding: 10px;
+    border-radius: 5px;
+    border:1px solid #ccc;
+    
+
+}
+
+form{
+    background-color: white;
+    box-shadow: 0 5px 10px rgb(30, 24, 24);
+    max-width: 500px;
+    padding:20px;
+}
+
+button{
+    /* background-color:rgb(1, 181, 241); */
+    width: 300px;
+    height: 38px;
+    color: white;
+    box-shadow: 0 2px 5px rgb(88, 84, 84);
+    cursor: pointer;
+    background: linear-gradient(to right, rgb(249, 3, 196),rgb(3, 172, 245));
+}
+
+button:hover{
+    background: linear-gradient(to right,rgb(3, 172, 245), rgb(249, 3, 196));
+    border-radius: 10px;
+}
+
+footer {
+    background:linear-gradient(to right, rgb(109, 6, 205), rgb(245, 6, 6));
+    color: white;
+    padding:10px;
+}
+
+label{
+    font-family: "Poppins";
+    font-weight: Bold;
+}
