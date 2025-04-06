@@ -11,6 +11,7 @@ h1{
 
 p{
     font-family: "Poppins";
+    width: auto;
 }
 
 header{
@@ -22,11 +23,7 @@ header{
 }
 
 
-img{
-    border-radius: 200px;
-    box-shadow: 0 5px 10px rgb(252, 1, 1);
-    padding: 20px;
-}
+
 
 .icons{
     width: 40px;
@@ -49,7 +46,7 @@ img{
     background: rgb(252, 237, 209);
 }
 
-a{
+/* a{
     color:rgb(144, 144, 222);
     text-decoration: none;
 }
@@ -57,7 +54,7 @@ a{
 a:hover{
     color: blue;
     text-decoration: underline;
-}
+} */
 
 form input[type="text"],
 form input[type="email"],
@@ -79,12 +76,13 @@ form{
 
 button{
     /* background-color:rgb(1, 181, 241); */
-    width: 300px;
+    width: 200px;
     height: 38px;
     color: white;
     box-shadow: 0 2px 5px rgb(88, 84, 84);
     cursor: pointer;
     background: linear-gradient(to right, rgb(249, 3, 196),rgb(3, 172, 245));
+    border-radius: 10px;
 }
 
 button:hover{
